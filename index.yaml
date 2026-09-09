@@ -3,7 +3,7 @@ entries:
   kdt-identity:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-09-09T14:05:05.118570856Z"
+    created: "2026-09-09T14:10:19.888896848Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: b7ffd195a9ceea15c6733527585056819875cb03550795613943481f22097d82
@@ -22,7 +22,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-09-09T14:05:05.117559784Z"
+    created: "2026-09-09T14:10:19.888065139Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: 37b7cab53d3d82515190703680ec49375958f34ab15b6283260b3bfe947a5048
@@ -41,8 +41,26 @@ entries:
     version: 1.2.0
   kdt-web:
   - apiVersion: v2
+    appVersion: 2.0.0-rc.2
+    created: "2026-09-09T14:10:19.889714166Z"
+    description: Interface web de kdt, adossée à kdt-identity
+    digest: a534904763960ea268d9ab4d6f6de3b2dff1d787855ca6cf8b7a988c57af639f
+    home: https://github.com/agardenat/kdt
+    keywords:
+    - kubernetes
+    - diagnostic
+    - flux
+    - web
+    name: kdt-web
+    sources:
+    - https://github.com/agardenat/kdt
+    type: application
+    urls:
+    - https://agardenat.github.io/helm-charts/kdt-web-2.0.0-rc.2.tgz
+    version: 2.0.0-rc.2
+  - apiVersion: v2
     appVersion: 2.0.0-rc.1
-    created: "2026-09-09T14:05:05.119110169Z"
+    created: "2026-09-09T14:10:19.889340004Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: a5a17ba06677fa61d0c6084334fcdf1d2fad8291df624de107e494b761e7d7da
     home: https://github.com/agardenat/kdt
@@ -58,4 +76,4 @@ entries:
     urls:
     - https://agardenat.github.io/helm-charts/kdt-web-2.0.0-rc.1.tgz
     version: 2.0.0-rc.1
-generated: "2026-09-09T14:05:05.116347654Z"
+generated: "2026-09-09T14:10:19.8871673Z"
