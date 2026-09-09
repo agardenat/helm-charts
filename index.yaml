@@ -1,0 +1,42 @@
+apiVersion: v1
+entries:
+  kdt-identity:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2026-09-09T10:02:14.252497235+02:00"
+    description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
+      et émission de kubeconfig
+    digest: 37b7cab53d3d82515190703680ec49375958f34ab15b6283260b3bfe947a5048
+    home: https://github.com/agardenat/kdt-identity
+    keywords:
+    - identity
+    - rbac
+    - authentication
+    - kubeconfig
+    name: kdt-identity
+    sources:
+    - https://github.com/agardenat/kdt-identity
+    type: application
+    urls:
+    - https://agardenat.github.io/helm-charts/kdt-identity-1.2.0.tgz
+    version: 1.2.0
+  kdt-web:
+  - apiVersion: v2
+    appVersion: 2.0.0-rc.1
+    created: "2026-09-09T10:02:14.252893393+02:00"
+    description: Interface web de kdt, adossée à kdt-identity
+    digest: a5a17ba06677fa61d0c6084334fcdf1d2fad8291df624de107e494b761e7d7da
+    home: https://github.com/agardenat/kdt
+    keywords:
+    - kubernetes
+    - diagnostic
+    - flux
+    - web
+    name: kdt-web
+    sources:
+    - https://github.com/agardenat/kdt
+    type: application
+    urls:
+    - https://agardenat.github.io/helm-charts/kdt-web-2.0.0-rc.1.tgz
+    version: 2.0.0-rc.1
+generated: "2026-09-09T10:02:14.251618042+02:00"
