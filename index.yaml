@@ -3,7 +3,7 @@ entries:
   kdt-identity:
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-11-24T08:26:52.056566654Z"
+    created: "2026-11-24T13:58:31.701418758Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: 3f1098777c6e419b988dd526b584e18a26f671c2e212837993e54503cf714154
@@ -22,7 +22,7 @@ entries:
     version: 1.5.1
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-11-24T08:26:52.055753893Z"
+    created: "2026-11-24T13:58:31.699366546Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: 8f88b656a171054aaff7df7788b8f04a94e82bfcf84f1724ecf26b5b9ba2afe6
@@ -41,7 +41,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-11-24T08:26:52.054735946Z"
+    created: "2026-11-24T13:58:31.697251567Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: 28eda91ac00f6e3f7f12ca9b8501efca41e15a49ada6e710d9c01db4cd686ad8
@@ -60,7 +60,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-11-24T08:26:52.053024613Z"
+    created: "2026-11-24T13:58:31.695131818Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: b7ffd195a9ceea15c6733527585056819875cb03550795613943481f22097d82
@@ -79,7 +79,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-11-24T08:26:52.052178701Z"
+    created: "2026-11-24T13:58:31.693152423Z"
     description: Utilisateurs et groupes locaux pour Kubernetes, avec portail d'activation
       et émission de kubeconfig
     digest: 37b7cab53d3d82515190703680ec49375958f34ab15b6283260b3bfe947a5048
@@ -98,8 +98,26 @@ entries:
     version: 1.2.0
   kdt-web:
   - apiVersion: v2
+    appVersion: 2.13.1
+    created: "2026-11-24T13:58:31.718396784Z"
+    description: Interface web de kdt, adossée à kdt-identity
+    digest: 3d3a243e38582d994b566b8de5d5d857cc131fff591a5bb0507a7a5f050d9806
+    home: https://github.com/agardenat/kdt
+    keywords:
+    - kubernetes
+    - diagnostic
+    - flux
+    - web
+    name: kdt-web
+    sources:
+    - https://github.com/agardenat/kdt
+    type: application
+    urls:
+    - https://agardenat.github.io/helm-charts/kdt-web-2.13.1.tgz
+    version: 2.13.1
+  - apiVersion: v2
     appVersion: 2.13.0
-    created: "2026-11-24T08:26:52.065794741Z"
+    created: "2026-11-24T13:58:31.716798033Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 117580f14739d16966b1e0bce17c7d6522b3f01d2557aded5870ecaff230089c
     home: https://github.com/agardenat/kdt
@@ -117,7 +135,7 @@ entries:
     version: 2.13.0
   - apiVersion: v2
     appVersion: 2.12.0
-    created: "2026-11-24T08:26:52.064951342Z"
+    created: "2026-11-24T13:58:31.71597605Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 0e8c7e6f0e7f83f69d4a8d3f0d70e7e5be4126c0daa00a540150c63e6f313bee
     home: https://github.com/agardenat/kdt
@@ -135,7 +153,7 @@ entries:
     version: 2.12.0
   - apiVersion: v2
     appVersion: 2.11.0
-    created: "2026-11-24T08:26:52.064527672Z"
+    created: "2026-11-24T13:58:31.715471996Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 745b77ee794a80ff619f5bc80b5fe9fb61f45517eb9c648ba706f2ce856ebe2b
     home: https://github.com/agardenat/kdt
@@ -153,7 +171,7 @@ entries:
     version: 2.11.0
   - apiVersion: v2
     appVersion: 2.10.1
-    created: "2026-11-24T08:26:52.064188528Z"
+    created: "2026-11-24T13:58:31.714987168Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 18caf61e6129460cf33a3132bcdc9436c287573de399ecf71b01b781b1284102
     home: https://github.com/agardenat/kdt
@@ -171,7 +189,7 @@ entries:
     version: 2.10.1
   - apiVersion: v2
     appVersion: 2.10.0
-    created: "2026-11-24T08:26:52.063819059Z"
+    created: "2026-11-24T13:58:31.714439804Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 7f6e5db8b6fdba33d6f39432b0f84ef70e592d07861d0fd51e6ed2933e06d265
     home: https://github.com/agardenat/kdt
@@ -189,7 +207,7 @@ entries:
     version: 2.10.0
   - apiVersion: v2
     appVersion: 2.9.0
-    created: "2026-11-24T08:26:52.069639055Z"
+    created: "2026-11-24T13:58:31.725241598Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: c27eeebba42a3bf13afbbef381efa482ab10f188f6eba37c38569080f55f0e16
     home: https://github.com/agardenat/kdt
@@ -207,7 +225,7 @@ entries:
     version: 2.9.0
   - apiVersion: v2
     appVersion: 2.8.2
-    created: "2026-11-24T08:26:52.069296078Z"
+    created: "2026-11-24T13:58:31.724705494Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: eb53920d81ec2a58a89ed4c907db6a9eac3564c41fc67e0165d959a3237867a5
     home: https://github.com/agardenat/kdt
@@ -225,7 +243,7 @@ entries:
     version: 2.8.2
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2026-11-24T08:26:52.068946101Z"
+    created: "2026-11-24T13:58:31.72423842Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 1115f1bba05b5a16af20cb93faf33f9886febfd9026c0b5ca0004f2fe801215a
     home: https://github.com/agardenat/kdt
@@ -243,7 +261,7 @@ entries:
     version: 2.8.1
   - apiVersion: v2
     appVersion: 2.8.0
-    created: "2026-11-24T08:26:52.068604055Z"
+    created: "2026-11-24T13:58:31.723728184Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 92632d911224a4d2b831f7812dcf0cd61ade195318e22d8fa48b5c9909f252c8
     home: https://github.com/agardenat/kdt
@@ -261,7 +279,7 @@ entries:
     version: 2.8.0
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2026-11-24T08:26:52.068239133Z"
+    created: "2026-11-24T13:58:31.723200537Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: ab3757d9c99e6bed2a312688bcba155bcd54bd4248983307648de8068327d409
     home: https://github.com/agardenat/kdt
@@ -279,7 +297,7 @@ entries:
     version: 2.7.0
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2026-11-24T08:26:52.067877359Z"
+    created: "2026-11-24T13:58:31.722521445Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: f731cc51ba9c80f2eee7378b036860a4c577b7849bb8ecf490ec6482e565fdee
     home: https://github.com/agardenat/kdt
@@ -297,7 +315,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2026-11-24T08:26:52.067529099Z"
+    created: "2026-11-24T13:58:31.721618816Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: c682b84f4a7f5243a53567b671b9f8f9387182b3bbe23c9ca644f3b68c5f611e
     home: https://github.com/agardenat/kdt
@@ -315,7 +333,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 2.4.0
-    created: "2026-11-24T08:26:52.067171925Z"
+    created: "2026-11-24T13:58:31.720813558Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 99ddac83176bad39984ab56ac7ef5097c0d15c23a8c3adcae55209b77e384367
     home: https://github.com/agardenat/kdt
@@ -333,7 +351,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-11-24T08:26:52.066781568Z"
+    created: "2026-11-24T13:58:31.720082509Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 232b088b496ac75d160665816261d83b38d833ad9ea47816e19002fa05098c84
     home: https://github.com/agardenat/kdt
@@ -351,7 +369,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2026-11-24T08:26:52.066386134Z"
+    created: "2026-11-24T13:58:31.719253087Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 8c3a66ced8ebcb9396134aaaa312e89cfc74094d4ad574d063ee0cf51f7eb573
     home: https://github.com/agardenat/kdt
@@ -369,7 +387,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2026-11-24T08:26:52.063464399Z"
+    created: "2026-11-24T13:58:31.713787964Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 838ae62eef68eab322c5c504c2fdc073ad5e5797b1bfbb59a72e4f873993927c
     home: https://github.com/agardenat/kdt
@@ -387,7 +405,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2026-11-24T08:26:52.063106851Z"
+    created: "2026-11-24T13:58:31.713292706Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 3e589ab03ee5da41c9ac6c8fa3ae8fa282146246465154d03bcab48522f9933c
     home: https://github.com/agardenat/kdt
@@ -405,7 +423,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: 2.0.1
-    created: "2026-11-24T08:26:52.062709118Z"
+    created: "2026-11-24T13:58:31.712770739Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 827051e94760b6c2cff758aab7bda6f014e85f490dddc81f7f46978d22ba089f
     home: https://github.com/agardenat/kdt
@@ -423,7 +441,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2026-11-24T08:26:52.062389208Z"
+    created: "2026-11-24T13:58:31.712300729Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: afad93e86644d2a58f802b836d379c94de803b4c3ae0405569b794cece1e97a0
     home: https://github.com/agardenat/kdt
@@ -441,7 +459,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 2.0.0-rc.13
-    created: "2026-11-24T08:26:52.058325284Z"
+    created: "2026-11-24T13:58:31.705491192Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 8ef569e2adbf4c7a2ffed0fc638fff93232d9b3c8dd4afcb90002a3c1e6389c5
     home: https://github.com/agardenat/kdt
@@ -459,7 +477,7 @@ entries:
     version: 2.0.0-rc.13
   - apiVersion: v2
     appVersion: 2.0.0-rc.12
-    created: "2026-11-24T08:26:52.057975413Z"
+    created: "2026-11-24T13:58:31.70483308Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: d85deb50404a23c1bdf7c0753799592fecd15ef798c9e2062e32b8d41283b61c
     home: https://github.com/agardenat/kdt
@@ -477,7 +495,7 @@ entries:
     version: 2.0.0-rc.12
   - apiVersion: v2
     appVersion: 2.0.0-rc.11
-    created: "2026-11-24T08:26:52.057623524Z"
+    created: "2026-11-24T13:58:31.704223328Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 9db0005252cba81409d9ec669cd16218ee5d6d7cd813533680f1d06eb2c510a1
     home: https://github.com/agardenat/kdt
@@ -495,7 +513,7 @@ entries:
     version: 2.0.0-rc.11
   - apiVersion: v2
     appVersion: 2.0.0-rc.10
-    created: "2026-11-24T08:26:52.057272977Z"
+    created: "2026-11-24T13:58:31.7034018Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: f1b1d521ab25c6015b7c01b2e95d41d634b74005374b56d67f3d0c35c7ac126f
     home: https://github.com/agardenat/kdt
@@ -513,7 +531,7 @@ entries:
     version: 2.0.0-rc.10
   - apiVersion: v2
     appVersion: 2.0.0-rc.9
-    created: "2026-11-24T08:26:52.062036265Z"
+    created: "2026-11-24T13:58:31.711757091Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: bf834901b92612b4337040142972a0a9886764ab92405d7b0877874c51150cc6
     home: https://github.com/agardenat/kdt
@@ -531,7 +549,7 @@ entries:
     version: 2.0.0-rc.9
   - apiVersion: v2
     appVersion: 2.0.0-rc.8
-    created: "2026-11-24T08:26:52.061709679Z"
+    created: "2026-11-24T13:58:31.711285339Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: cb76cbc450a2ca5adda9a3ac825a1c3e89f0a48a1f1be067e384facce6fa10f8
     home: https://github.com/agardenat/kdt
@@ -549,7 +567,7 @@ entries:
     version: 2.0.0-rc.8
   - apiVersion: v2
     appVersion: 2.0.0-rc.7
-    created: "2026-11-24T08:26:52.061353428Z"
+    created: "2026-11-24T13:58:31.710725911Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 9cb0e2f8a7d615b323e14ca45edd0431b50cd8f0dbbe988f6d5c57a894b2fa74
     home: https://github.com/agardenat/kdt
@@ -567,7 +585,7 @@ entries:
     version: 2.0.0-rc.7
   - apiVersion: v2
     appVersion: 2.0.0-rc.6
-    created: "2026-11-24T08:26:52.060965865Z"
+    created: "2026-11-24T13:58:31.710210326Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 3be6da484d1f4b6f0d3f034759eba28231bbad1a1d89a5a9ef1bd092d19508fa
     home: https://github.com/agardenat/kdt
@@ -585,7 +603,7 @@ entries:
     version: 2.0.0-rc.6
   - apiVersion: v2
     appVersion: 2.0.0-rc.5
-    created: "2026-11-24T08:26:52.060526028Z"
+    created: "2026-11-24T13:58:31.709644677Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 3c767f7fdd4f9fd77b15a926311d523b50ff6bbe51e7f6eafce35c02ac231b0b
     home: https://github.com/agardenat/kdt
@@ -603,7 +621,7 @@ entries:
     version: 2.0.0-rc.5
   - apiVersion: v2
     appVersion: 2.0.0-rc.4
-    created: "2026-11-24T08:26:52.059453986Z"
+    created: "2026-11-24T13:58:31.708822057Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 747737e0887a01a750ecbf872417498963eb3e3b0851a348e456749e7a4fb8d4
     home: https://github.com/agardenat/kdt
@@ -621,7 +639,7 @@ entries:
     version: 2.0.0-rc.4
   - apiVersion: v2
     appVersion: 2.0.0-rc.3
-    created: "2026-11-24T08:26:52.058970038Z"
+    created: "2026-11-24T13:58:31.707621249Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: 02282c2cdb72a36e1ba982babf352cdc441fb47f59465700fd72a29d3b256ba9
     home: https://github.com/agardenat/kdt
@@ -639,7 +657,7 @@ entries:
     version: 2.0.0-rc.3
   - apiVersion: v2
     appVersion: 2.0.0-rc.2
-    created: "2026-11-24T08:26:52.058628921Z"
+    created: "2026-11-24T13:58:31.706129035Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: a534904763960ea268d9ab4d6f6de3b2dff1d787855ca6cf8b7a988c57af639f
     home: https://github.com/agardenat/kdt
@@ -657,7 +675,7 @@ entries:
     version: 2.0.0-rc.2
   - apiVersion: v2
     appVersion: 2.0.0-rc.1
-    created: "2026-11-24T08:26:52.05691029Z"
+    created: "2026-11-24T13:58:31.702388644Z"
     description: Interface web de kdt, adossée à kdt-identity
     digest: a5a17ba06677fa61d0c6084334fcdf1d2fad8291df624de107e494b761e7d7da
     home: https://github.com/agardenat/kdt
@@ -673,4 +691,4 @@ entries:
     urls:
     - https://agardenat.github.io/helm-charts/kdt-web-2.0.0-rc.1.tgz
     version: 2.0.0-rc.1
-generated: "2026-11-24T08:26:52.051258424Z"
+generated: "2026-11-24T13:58:31.691034288Z"
